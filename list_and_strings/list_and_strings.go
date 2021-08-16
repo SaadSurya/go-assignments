@@ -103,7 +103,7 @@ func ListAndStrings7(list []int) {
 	}
 
 	recursionResult := sum(list, 0)
-	fmt.Printf("forResult: %v, whileResult: %v, recursionResult: %v", forResult, whileResult, recursionResult)
+	fmt.Printf("forResult: %v, whileResult: %v, recursionResult: %v\n", forResult, whileResult, recursionResult)
 }
 func sum(list []int, i int) int {
 	if(i < len(list)) {

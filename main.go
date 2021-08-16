@@ -3,14 +3,18 @@ package main
 import (
 	"fmt"
 
-	"github.com/saadsurya/go-assignment/elementary"
-	"github.com/saadsurya/go-assignment/list_and_strings"
+	//"github.com/saadsurya/go-assignment/elementary"
+	//"github.com/saadsurya/go-assignment/list_and_strings"
+	"github.com/saadsurya/go-assignment/rest"
 )
 
 func main() {
+
+	rest.Main()
+
 	// Elementar
 	fmt.Println("\nElementary Problems Start:")
-	elementary.Elementary1()
+	//elementary.Elementary1()
 	//elementary.Elementary2)
 	//elementary.Elementary3()
 	//elementary.Elementary4()
@@ -31,6 +35,6 @@ func main() {
 	//list_and_strings.ListAndStrings4([]int{1, 2, 3, 4, 5, 6, 7})
 	//list_and_strings.ListAndStrings5([]int{1, 2, 3, 4, 5, 6, 7})
 	//list_and_strings.ListAndStrings6("madam")
-	list_and_strings.ListAndStrings7([]int{1, 2, 3, 4, 5, 6, 7})
+	//list_and_strings.ListAndStrings7([]int{1, 2, 3, 4, 5, 6, 7})
 	fmt.Println("\nList & String Problems End")
 }
