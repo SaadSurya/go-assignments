@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        Client application
+        <script>
+            let socket = new WebSocket("ws://localhost:3000/ws");
+            console.log("Attempting websocket Connection");
+
+            socket.onopen = () => {
+                console.log("Successfully Connected");
+                socket.send("Hi from the client");
+            }
+
+            socket.onclose = (event) => {
+                console.log("Socket closed the connection: ", event);
+            }
+
+            socket.onerror = (error) => {
+                console.log("Socket error: ", error);
+            }
+
+            socket.onmessage = (message) => {
+                console.log("Message Received: ", message);
+            }
+
+        </script>
+    </body>
+</html>

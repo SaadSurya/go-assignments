@@ -6,13 +6,14 @@ import (
 	//"github.com/saadsurya/go-assignment/elementary"
 	//"github.com/saadsurya/go-assignment/list_and_strings"
 	//"github.com/saadsurya/go-assignment/rest"
-	"github.com/saadsurya/go-assignment/concurrency"
+	//"github.com/saadsurya/go-assignment/concurrency"
+	"github.com/saadsurya/go-assignment/websockets"
 )
 
 func main() {
 
-	fmt.Println("\nConcurrency -> Mutex")
-	concurrency.MutexMain()
+	//fmt.Println("\nConcurrency -> Mutex")
+	//concurrency.MutexMain()
 
 	//fmt.Println("\nConcurrency -> GoRoutines")
 	//concurrency.GoRoutineMain()
@@ -22,6 +23,9 @@ func main() {
 
 	//fmt.Println("\nRest API")
 	//rest.Main()
+
+	fmt.Println("\nWeb Sockets")
+	websockets.Main()
 
 	// Elementar
 	//fmt.Println("\nElementary Problems Start:")
